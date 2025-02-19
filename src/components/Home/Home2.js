@@ -4,6 +4,7 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
+import Contact from "../Contact/contact";
 import {
 
   AiFillGithub,
@@ -17,6 +18,7 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
     <About />
     <Projects />
+    <Contact/>
    {/* <Container>
      <Row>
        <Col md={8} className="home-about-description">

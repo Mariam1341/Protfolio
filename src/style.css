@@ -2,7 +2,7 @@ html {
   --section-background-color: linear-gradient(
     to bottom left,
     rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    rgb(12, 8, 24)
   );
 
   --image-gradient: linear-gradient(
@@ -13,6 +13,10 @@ html {
 
   --imp-text-color: #c770f0;
 }
+
+/* #be50f4
+#c95bf5
+#cd5ff8; */
 
 .purple {
   color: var(--imp-text-color) !important;
@@ -38,6 +42,13 @@ button:focus {
   background-position: center;
 }
 
+#contact {
+  margin: 2rem;
+}
+
+.contact {
+  color: #fff;
+}
 #preloader-none {
   opacity: 0;
 }
@@ -46,7 +57,7 @@ button:focus {
   padding: 10px 20px;
   text-decoration: none;
   margin-right: 30px;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid rgb(201, 137, 230) !important;
   color: purple;
   background-color: transparent;
   transition: all 0.3s ease;
@@ -323,12 +334,13 @@ button:focus {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  
+  /* padding-top: 9em !important; */
 }
 
 @media (max-width: 767px) {
   .myAvtar {
-    padding-top: 2em !important;
+    /* padding-top: 2em !important; */
     padding-bottom: 2em !important;
   }
 }
@@ -522,7 +534,7 @@ button:focus {
 
 .card-img-top {
   padding: 20px !important;
-  opacity: 0.8 !important;
+  /* opacity: 0.8 !important; */
   border-radius: 10px !important;
 }
 
@@ -562,7 +574,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /* background-image: var(--section-background-color) !important; */
   color: white !important;
 }
 
